@@ -1,0 +1,15 @@
+apiVersion: kubescheduler.config.k8s.io/v1beta3
+kind: KubeSchedulerConfiguration
+leaderElection:
+  leaderElect: true
+clientConnection:
+  kubeconfig: /etc/kubernetes/scheduler.conf
+profiles:
+- schedulerName: layer-scheduler
+  plugins:
+    score:
+      enabled:
+      - name: LayerPro
+        weight: 2
+      - name: NodeResourcesBalancedAllocation
+        weight: 1
