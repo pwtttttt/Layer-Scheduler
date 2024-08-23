@@ -1,0 +1,41 @@
+{
+    "Lists": {
+        "nginx:1.26.1": {
+            "id": "6a5ee1954d86336620f4ce3e5ec050f5b9cc03d1ba57fe78e7fcb3f826d61c9b",
+            "name": "nginx",
+            "name_without_repo": "nginx",
+            "tag": "1.26.1",
+            "total_size": 7157,
+            "layer_metadata": [
+                {
+                    "size": 29150411,
+                    "layer": "sha256:09f376ebb190216b0459f470e71bec7b5dfa611d66bf008492b40dcc5f1d8eae"
+                },
+                {
+                    "size": 41829255,
+                    "layer": "sha256:50cd203f28712ac72c307d5adccca5316405deec548246c8ac59b5f3e0217cbb"
+                },
+                {
+                    "size": 628,
+                    "layer": "sha256:9b3addd3eb3dbfb5b3d69303cd4aae75af5164f17e5d0319555c792af67536f9"
+                },
+                {
+                    "size": 959,
+                    "layer": "sha256:c2744bd3c38803b771ee0c3e37acf3c6c667922b16672c78e39dc81009aa7078"
+                },
+                {
+                    "size": 396,
+                    "layer": "sha256:99c7eef6601a643e3b56eaa2b2208cc5d281f75275fe386f39aa4e085ed9d7cf"
+                },
+                {
+                    "size": 1213,
+                    "layer": "sha256:0b362abff7c03531d60b1b7194f36ca0d46049b8913c70955520f5ef88d3eb5e"
+                },
+                {
+                    "size": 1402,
+                    "layer": "sha256:f9e3483e2126a15e588670b1e817ae65b96faad8ba2cca894cb7e8a9196b2212"
+                }
+            ]
+        },
+    }
+}
