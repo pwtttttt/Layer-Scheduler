@@ -1,7 +1,6 @@
 package layer
 
 
-
 import (
 
 	"bytes"
