@@ -2,6 +2,7 @@ module layer-scheduler
 
 go 1.18
 
+
 require (
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v20.10.7+incompatible
